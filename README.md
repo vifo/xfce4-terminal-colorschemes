@@ -2,14 +2,14 @@
 
 Collection of `xfce4-terminal(1)` color schemes.
 
-Install globally (as root) to `/usr/share/xfce4/terminal/colorschemes` with:
+Install to user `~/.config/xfce4/terminal/` with:
 
     make install
 
-or to user profile with:
+or globally to `/usr/share/xfce4/terminal` with:
 
-    cp colorschemes/*.theme ~/.config/xfce4/terminal/colorschemes
-
+    sudo make PREFIX=/usr/share/xfce4/terminal install
+    
 ## Color schemes
 
 Following color schemes are included:
